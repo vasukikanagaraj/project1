@@ -1,0 +1,616 @@
+@import url('https://fonts.googleapis.com/css2?family=Agdasima:wght@400;700&family=Anton&family=Archivo:ital,wght@0,100..900;1,100..900&family=BIZ+UDGothic&family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&family=Caveat:wght@400..700&family=Dancing+Script:wght@400..700&family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Jost:ital,wght@0,100..900;1,100..900&family=Just+Another+Hand&family=Lobster&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans+JP:wght@100..900&family=Noto+Serif+Tamil:ital,wght@0,100..900;1,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&family=Oxanium:wght@200..800&family=PT+Sans+Narrow:wght@400;700&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Pacifico&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Quicksand:wght@300..700&family=Roboto+Slab:wght@100..900&family=Rubik+Mono+One&family=Sevillana&family=Yanone+Kaffeesatz:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Agdasima:wght@400;700&family=Anton&family=Archivo:ital,wght@0,100..900;1,100..900&family=BIZ+UDGothic&family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&family=Caveat:wght@400..700&family=Dancing+Script:wght@400..700&family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Jost:ital,wght@0,100..900;1,100..900&family=Just+Another+Hand&family=Lobster&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans+JP:wght@100..900&family=Noto+Serif+Tamil:ital,wght@0,100..900;1,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&family=Oxanium:wght@200..800&family=PT+Sans+Narrow:wght@400;700&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Pacifico&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Quicksand:wght@300..700&family=Roboto+Slab:wght@100..900&family=Rubik+Mono+One&family=Sevillana&family=Yanone+Kaffeesatz:wght@200..700&display=swap');
+
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.wear1{
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-top: 50px;
+}
+.na1 ul li{
+    padding: 2px;
+    margin: 5px;
+    float: left;
+    list-style: none;
+    margin: 20PX;
+}
+ .na1 ul{
+    margin-left: 40px;
+    font-family: "Roboto Slab", serif;
+    text-transform: uppercase;
+    font-size: .8rem;
+    margin-bottom: 0PX;
+    letter-spacing: 3px;
+ }
+ .na1 ul li a{
+    text-decoration: none;
+    color: black;
+ }
+ .na1 ul li a:hover{
+    color:#15aac1;
+ }
+ .wear1 .mor2{
+    display: none;
+ }
+.wear1 .btn-outline-success img{
+width: 30px;
+height: 30px;
+margin: 0px;
+padding: 0px;
+}
+.wear1 .btn-outline-success{
+    outline: none;
+    border: none;
+}
+.wear1 .form-control{
+    border-radius: 40px;
+    padding: 4px;
+    line-height: 10px;
+    margin: 10px;
+}
+.wear1 .navbar-brand { 
+    font-weight: 700;
+    font-size: 2.4rem;
+}
+
+@media all and (max-width:650px){
+    .wear1 .form-control{
+        width: 400px;
+    } 
+    .na1 ul li a{
+        display: none;
+    }  
+    .wear1 .mor2{
+        display: block;
+     }
+}
+@media all and (max-width:560px){
+    .wear1 .form-control{
+        width: 200px;
+    } 
+    .wear1 .mor2{
+        display: block;
+        position: relative;
+        top: 20px;
+     }
+}
+@media all and (max-width:415px){
+    .wear1 .form-control {
+        position: relative;
+        right: 90px;
+    }
+    .wear1 .btn-outline-success{
+        position: relative;
+        right: 90px;
+    }
+    .wear1 .navbar-brand {
+        position: relative;
+        right: 70px;
+        font-weight: 500;
+        font-size: 1.4rem;
+    }
+    .wear1 .mor2{
+        display: block;
+        position: relative;
+        top: 10px;
+        left: 30px;
+     }
+
+}
+.prh1{
+    margin-top: 50PX;
+    text-align: center;
+    background-color: #88c8bc;
+    padding: 15PX;
+    color: white;
+    font-weight: 500;
+    font-size: 1.2rem;
+    font-family: 'Montserrat';
+    letter-spacing: 1PX;
+    position: relative;
+    top: 20PX;
+}
+.carousel-item{
+    height:700PX;
+    width: 700PX;
+}
+.carousel-caption .btn1{
+    border-radius: 30px;
+    margin: 30px;
+    background-color: grey;
+    color: white;
+    padding: 15px;
+    width: 25%;
+    font-size: .8rem;
+    font-family: 'Montserrat';
+    letter-spacing: 2px;
+    border: none;
+    font-weight: 600;
+}
+.carousel-caption{
+    margin-bottom: 100px;
+    font-family: "Roboto Slab", serif;
+}
+ .carousel-item .one1{
+    font-family: "Roboto Slab", serif;
+    font-size: 3rem;
+    letter-spacing: 2px;
+    font-weight: 800;
+}
+.carousel-item .one2{
+    font-size: 1.5rem;
+    letter-spacing: 2px;
+    font-weight: 400;
+}
+.carousel-item .one3{
+    font-size: 2.5rem;
+    letter-spacing: 2px;
+    font-weight: 300;
+}
+.carousel-item .one4{
+    font-size: 1.1rem;
+    letter-spacing: 2px;
+    font-weight: 400;
+    color: rgb(211, 199, 199);
+}
+.carousel-caption .btn2{
+    border-radius: 30px;
+    margin: 30px;
+    background-color: grey;
+    color: white;
+    padding: 15px;
+    width: 25%;
+    font-size: .8rem;
+    font-family: 'Montserrat';
+    letter-spacing: 2px;
+    border: none;
+    font-weight: 600;
+}
+.carousel-item .two1{
+    font-family: "Roboto Slab", serif;
+    font-size: 3rem;
+    letter-spacing: 2px;
+    font-weight: 800;
+}
+.carousel-item .two2{
+    font-size: 1.5rem;
+    letter-spacing: 2px;
+    font-weight: 400;
+}
+.carousel-item .two3{
+    font-size: 2.5rem;
+    letter-spacing: 2px;
+    font-weight: 300;
+}
+.carousel-item .two4{
+    font-size: 1.1rem;
+    letter-spacing: 2px;
+    font-weight: 400;
+    color: rgb(211, 199, 199);
+}
+@media all and (max-width:1076px){
+    .carousel-item .two1{
+        position: relative;
+        bottom: 90px;
+    }
+.carousel-item .two2{
+        position: relative;
+        bottom: 90px;
+}
+.carousel-item .two3{
+    position: relative;
+    bottom: 90px;
+}
+.carousel-item .two4{
+    position: relative;
+    bottom: 90px;
+
+}
+.carousel-caption .btn2{
+    border-radius: 30px;
+    margin: 30px;
+    background-color: grey;
+    color: white;
+    padding: 15px;
+    width: 40%;
+    font-size: .8rem;
+    font-family: 'Montserrat';
+    letter-spacing: 2px;
+    border: none;
+    font-weight: 600;
+    position: relative;
+    bottom: 90px;
+}
+.carousel-caption .btn1{
+    border-radius: 30px;
+    margin: 30px;
+    background-color: grey;
+    color: white;
+    padding: 15px;
+    width: 40%;
+    font-size: .8rem;
+    font-family: 'Montserrat';
+    letter-spacing: 2px;
+    border: none;
+    font-weight: 600;
+}
+
+}
+
+
+@media all and (max-width:890px){
+   
+    .carousel-item .two1{
+        position: relative;
+        bottom: 200px;
+    }
+    .carousel-item .two2{
+        position: relative;
+        bottom: 200px;
+}
+.carousel-item .two3{
+    position: relative;
+    bottom: 200px;
+}
+.carousel-item .two4{
+    position: relative;
+    bottom: 200px;
+
+}
+.carousel-caption .btn2{
+    border-radius: 30px;
+    margin: 30px;
+    background-color: grey;
+    color: white;
+    padding: 15px;
+    width: 40%;
+    font-size: .8rem;
+    font-family: 'Montserrat';
+    letter-spacing: 2px;
+    border: none;
+    font-weight: 600;
+    position: relative;
+    bottom: 200px;
+}
+
+}
+
+
+
+
+
+.bone1{
+    margin-left: 490px;
+    padding: 70px;
+    font-size: 2.5rem;
+    font-weight: 700;
+    font-family: 'Montserrat';
+}
+.fsone1{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.cone1 p{
+    font-size: 2rem;
+    font-family: "Roboto Slab", serif;
+    color: black;
+    letter-spacing: 2px;
+    margin-left: 50px;
+    padding: 20px;
+}
+
+
+.cone2 p{
+    font-size: 2rem;
+    margin-left: 600px;
+    font-family: "Roboto Slab", serif;
+}
+@media all and (max-width:1076px){
+    .bone1{
+        display: none;
+        
+    }
+}
+.wone {
+     justify-content: space-evenly;
+     display: flex;
+     flex-wrap: wrap;
+     overflow: hidden;
+}
+
+.carousel-inner{
+    overflow: hidden;
+}
+@media all and (max-width:365px){
+.d-flex .btn {
+    display:none;
+}
+}
+@media all and (max-width:415px){
+    .d-flex img{
+        display: none;
+    }
+ 
+}
+.d-flex img{
+    position: relative;
+    right: 40px;
+    top: 6px;
+}
+@media all and (max-width:650px){
+    .hone img{
+        height: 400px;
+        width: 400px;
+        margin-left: 50px;
+    } 
+    .hone1 img{
+        height: 400px;
+        width: 400px;
+        margin-left: 50px;
+    } 
+    .cone1 p{
+        font-size: 1rem;
+    }
+
+}
+@media all and (max-width:770px){
+    .hone img{
+        position: relative;
+        bottom: 200px;
+    
+    }
+    .hone1 img{
+        position: relative;
+        bottom: 200px;
+    
+    }
+    .cone1 p{
+        position: relative;
+        bottom: 200px;
+    }
+   
+}
+
+@media all and (max-width:500px){
+    .hone img{
+        height: 300px;
+        width: 300px;
+        position: relative;
+        bottom: 350px;
+
+    }
+    .hone1 img{
+        height: 300px;
+        width: 300px;
+        bottom: 350px;
+
+    }
+    .cone1 p{
+        position: relative;
+        bottom: 350px;
+    }
+}
+@media all and (max-width:400px){
+    .hone img{
+        height: 250px;
+        width: 250px;
+        position: relative;
+        bottom: 400px;
+
+}
+.hone1 img{
+    height: 250px;
+    width: 250px;
+    position: relative;
+    bottom: 400px;
+}
+.cone1 p{
+    position: relative;
+    bottom: 400px;
+    font-size: .7rem;
+}
+}
+@media all and (max-width:379px){
+    .hone img{
+        overflow: hidden;
+    }
+}
+@media all and (max-width:1076px){
+.cone2 p{
+    margin-right: 800px;
+}
+}
+@media all and (max-width:770px){
+    .container-fluid p{
+        position: relative;
+        bottom: 200px;
+    }
+    .wone{
+        position: relative;
+        bottom: 200px;
+    }
+}
+@media all and (max-width:500px){
+    .container-fluid p{
+        position: relative;
+        bottom: 300px;
+    }
+    .wone{
+        position: relative;
+        bottom: 300px;
+    }
+}
+.container-fluid p{
+    font-size: 2.5rem;
+    text-align: center;
+    font-family: 'Montserrat';
+    font-weight: 700;
+
+}
+.container-fluid{
+    font-size: 2rem;
+    text-align: center; 
+}
+@media all and (max-width:594px){
+    .wone{
+        padding: 50px;
+    }
+
+}
+@media all and (max-width:390px){
+    .container-fluid p{
+        position: relative;
+        bottom: 400px;
+        
+    }
+    .wone{
+        position: relative;
+        bottom: 400px;
+    }
+}
+.card .card-title{
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 1rem;
+    text-align: center;
+    font-family: "Roboto Slab", serif;
+}
+.card .card-title2{
+    font-weight: 400;
+    text-align: center;
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-family: "Roboto Slab", serif;
+}
+.card .card-text{
+    text-align: center;
+    text-transform: uppercase;
+    font-family: "Roboto Slab", serif;
+}
+.wone{
+    padding: 70px;
+}
+.pone {
+    justify-content: space-evenly;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+    padding: 70px;
+    position: relative;
+    bottom: 120px;
+
+}
+@media all and (max-width:770px){
+    .pone {
+        position: relative;
+        bottom: 300px;
+    }
+    
+}
+.aone1{
+    justify-content: space-evenly;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+    padding: 70px;
+    position: relative;
+    bottom: 240px;
+
+}
+.ione1{
+    justify-content: space-evenly;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+    padding: 70px;
+    position: relative;
+    bottom: 350px;
+
+}
+.container-fluid h3{
+     text-transform: uppercase;
+    font-family: "Roboto Slab", serif;
+    position: relative;
+    bottom: 300px;
+    color: rgb(155, 151, 151);
+    font-size: 1.3rem;
+    letter-spacing: 2px; 
+    font-weight: 700;
+}
+.imone img{
+    height: 150px;
+    width: 150px;
+}
+.imone{
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    bottom: 200px;
+    justify-content: space-evenly;
+}
+.heaone1{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+
+}
+.heaone2 h2{
+    font-size: 1rem;
+    font-family: "Roboto Slab", serif;
+    line-height: 70px;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.none h2{
+    font-size: 1rem;
+    font-family: "Roboto Slab", serif;
+    line-height: 70px;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.none2 h2{
+    font-size: 1rem;
+    font-family: "Roboto Slab", serif;
+    line-height: 70px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.none3 h2{
+    font-size: 1rem;
+    font-family: "Roboto Slab", serif;
+    line-height: 70px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.none4 h2{
+    font-size: 1rem;
+    font-family: "Roboto Slab", serif;
+    line-height: 70px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.heaone1 p{
+    font-family: "Roboto Slab", serif;
+    color: rgb(85, 82, 82);
+    font-size: .8rem;
+    letter-spacing:1px;
+    text-transform: uppercase;
+}
+.heaone2 p{
+    text-transform: lowercase;
+    font-size: 1rem;
+    font-weight: 300;
+}
